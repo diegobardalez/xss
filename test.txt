@@ -1,0 +1,4 @@
+admin:admin
+user:123456
+test:test
+papa:noel
